@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package entity;
+
+message Result {
+    string value = 1;
+}
+
+message Request{
+    string value = 1;
+}
+
+service Calc {
+    rpc Eval(Request) returns(Result) {}
+}
