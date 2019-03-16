@@ -7,7 +7,7 @@ And a client which gets input via STDIN and send it to the server. After the ser
 ```$ go version```
 
 ### Installation instructions
-1. Clone this repo in directory outside of **$GOPATH** or if you work in **GOPATH** then run ```export GOMODULLE111=on```
+1. Clone this repo in directory outside of **$GOPATH** or if you work in **GOPATH** then run ```export GO111MODULE=on```
 2. Navigate to server directory and run main.go with any port (default 8000)
 3. ```$ go run main.go --port=5000```
 4. Open another shell and naviagate to client directory and run main.go with the same port
